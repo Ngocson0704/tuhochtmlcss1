@@ -1,0 +1,196 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container > .header > .menu > ul{
+	list-style-type: none;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(6 ,1fr);
+}
+.container > .header > .menu > ul > li{
+	padding-left: 20px;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.container > .header > .menu > ul > li > a{
+	text-decoration: none;
+	color: black;
+}
+.container > .banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: url(../images/bg-banner.png);
+	padding: 10px;
+}
+.container > .banner > .banner-left > .slogan{
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+}
+.container > .banner > .banner-right > .slogan{
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+}
+.container > .banner > .banner-left > .content_banner{
+	color: white;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+}
+.container > .banner > .banner-right > .content_banner{
+	color: white;
+	font-size: 16px;
+	padding-bottom: 5px;
+	padding-top: 5px;	
+}
+.container > .banner > .banner-left > .link-left{
+	padding: 10px 15px;
+	background: #136ebf;
+	display: inline-block;
+	border-radius: 50px;
+	text-decoration:none;
+	border-bottom: 5px #024886 solid;
+	font-weight: bold;
+	font-size: 20px;
+}
+.container > .banner > .banner-right > .link-right{
+	padding: 10px 15px;
+	background: white;
+	display: inline-block;
+	border-radius: 50px;
+	text-decoration:none;
+	border-bottom: 5px #024886 solid;
+	font-weight: bold;
+	font-size: 20px;
+}
+.container > .box-search{
+	height: 80px;
+	background: #136ebf;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+.container > .box-search > .__box-search{
+	position: relative;
+}
+.container > .box-search > .__box-search > input{
+	border-radius: 50px;
+	border: 0;
+	height: 35px;
+	width: 100%;
+}
+.container > .box-search > .__box-search > input{
+    width: 100%;
+    border: 0;
+    height: 35px;
+    font-family: inherit;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+.container > .box-search > .__box-search > button{
+    border: none;
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35px;
+    width: 50px;
+    cursor: pointer;
+}
+.container > .row-1{
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.container > .row-1> .col-1{
+	width: 850px;
+}
+.container > .row-1 > .ads{
+	float: right;
+	width: 300px;
+}
+.container > .row-1 > .col-1 > .__sub-menu-1{
+	border-left: 10px solid #136ebf; 
+	border-bottom: 2px solid #136ebf;
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 23px;
+}
+.container > .row-1 > .col-1 > .__sub-menu-2{
+	border-left: 10px solid #136ebf; 
+	border-bottom: 2px solid #136ebf;
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 23px;	
+}
+.container > .row-1 > .col-1 > .__sub-menu-3{
+	border-left: 10px solid #136ebf; 
+	border-bottom: 2px solid #136ebf;
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 23px;	
+}
+.container > .row-1 > .col-1 > .sub-menu-1{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 35px;
+}
+.container > .row-1 > .col-1 > .sub-menu-1 > .item > a{
+	text-transform: capitalize;
+	padding: 5px 15px;
+	border: 0;
+	background: #136ebf;
+	color: white;
+	border-radius: 50px;
+	display: inline-block;
+}
+.container > .row-1 > .col-1 > .sub-menu-1 > .item{
+	margin-top: 20px;
+	text-align: center;
+}
+.container > .row-1 > .col-1 > .sub-menu-1 > .item > .price{
+	font-weight: bold;
+	padding-top: 2px 0 2px 0;
+}
+.container > .row-1 > .col-1 > .sub-menu-2{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+.container > .row-1 > .col-1 > .sub-menu-3 > .row-3{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+ .foott{
+	margin-top: 20px;
+	text-align: center;
+	background: #136ebf;
+	padding: 30px 25px;
+}
+.foott > p{
+	color: white;
+	font-size: 10px;
+}
